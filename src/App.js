@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import LineChart from "./components/LineChart";
+import BarChart from "./components/BarChart";
+import PieChart from "./components/Piechart/PieChart";
+import Header from "./components/Header/header";
+import Charger from './components/charger/charger';
+import Dasboard from './components/Dashboard/dasboard';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header/>
+      <LineChart/>
+      <BarChart/>
+      <PieChart/>
+      <Charger/> */}
+      <Header/>
+      <Dasboard/>
+      {/* <PieChart/> */}
     </div>
   );
 }

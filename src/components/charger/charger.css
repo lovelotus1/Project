@@ -1,0 +1,13 @@
+.main-container{
+    display:flex;
+    width: 414px;
+    height: 275px;
+    border: 2px solid red;
+}
+.main-containerChild{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 255, 68);
+
+}
